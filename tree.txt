@@ -1,0 +1,38 @@
+├── lib
+│   ├── trace
+│   │   ├── endpoint.ex
+│   │   └── repo.ex
+│   └── trace.ex
+├── mix.exs
+└── web
+    ├── channels
+    │   └── user_socket.ex
+    ├── controllers
+    │   └── page_controller.ex
+    ├── gettext.ex
+    ├── models
+    ├── router.ex
+    ├── static
+    │   ├── assets
+    │   │   ├── favicon.ico
+    │   │   ├── images
+    │   │   │   └── phoenix.png
+    │   │   └── robots.txt
+    │   ├── css
+    │   │   ├── app.css
+    │   │   └── phoenix.css
+    │   ├── js
+    │   │   ├── app.js
+    │   │   └── socket.js
+    │   └── vendor
+    ├── templates
+    │   ├── layout
+    │   │   └── app.html.eex
+    │   └── page
+    │       └── index.html.eex
+    ├── views
+    │   ├── error_helpers.ex
+    │   ├── error_view.ex
+    │   ├── layout_view.ex
+    │   └── page_view.ex
+    └── web.ex
